@@ -11,7 +11,7 @@ namespace IslandTourUI
         public Form1()
         {
             InitializeComponent();
-            openFileDialog1.FileName = "input.txt";
+            openFileDialog1.FileName = "";
             txtSelectedFile.Text = openFileDialog1.FileName ;
         }
 
